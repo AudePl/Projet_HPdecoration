@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.body{
+body{
 
 }
 /*
@@ -260,12 +260,48 @@ footer img{
     text-align: center;
 }
 
+/*---------------- prestations --------------*/
 
+.prestations-items ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    justify-content: space-around ; 
+    font-weight: bold;
+}
 
+.prestations-items ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-around ;
+    margin-top: 20px;  
+}
 
+.prestation {
+    line-height: 30px;
+    margin: 25px;
+}
 
+.prestation h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 30px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
 
-
+.prestation h1::after{
+    content: '';
+    background: #FF523B;
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 
 
 
